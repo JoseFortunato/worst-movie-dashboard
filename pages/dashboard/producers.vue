@@ -23,7 +23,7 @@
         </thead>
         <tbody>
           <tr
-          v-for="item in producersMin"
+          v-for="item in producersMax"
           :key="item.name"
           >
           <td>{{ item.producer }}</td>
